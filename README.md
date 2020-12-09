@@ -1,6 +1,7 @@
 # GLSL-shaders
 
 This program helped me to learn the empirical illumination model and the OpenGL Shading Language (GLSL).
+
 First, I wrote a vertex and fragment shader that implemented the Gouraud shading method. I did this by applying the illumination model on a subset of surface points, and then interpolating the intensity of the remaining points on the surface.
 
 Next, I wrote a vertex and fragment shader that implemented the Phong shading method. I did this by applying the illumination model to every point, on a surface normal that is linearly interpolated across polygonal facets.
